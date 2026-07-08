@@ -1,26 +1,189 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
+
+/*
+  SmileAgrimarket design tokens
+  ------------------------------------------------------------------
+  Brand palette (given):
+    forest  #28421b  ink, dark sections, primary action
+    leaf    #6FC346  accent, graphs, hover glow
+    harvest #E7C80C  used ONLY for returns / harvest highlights
+    mint    #28421b  deep forest (per client request; was #d7ffe5)
+    haze    #f3ffed  softest section tint
+  Type: Bricolage Grotesque (display) · Inter (body) · JetBrains Mono (data)
+*/
 
 @theme inline {
+  /* Brand scale — exposed as utilities: bg-forest, text-leaf, border-mint … */
+  --color-forest: #28421b;
+  --color-forest-700: #33502a;
+  --color-forest-600: #3f6034;
+  --color-leaf: #6fc346;
+  --color-leaf-600: #57a933;
+  --color-harvest: #e7c80c;
+  --color-mint: #28421b;
+  --color-haze: #f3ffed;
+  --color-ink: #16220e;
+
+  /* Semantic tokens consumed by shadcn primitives */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-bricolage);
+  --font-mono: var(--font-jetbrains);
+
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.9);
+  --radius-3xl: calc(var(--radius) * 2.4);
+
+  --shadow-soft: 0 1px 2px rgba(22, 34, 14, 0.04), 0 8px 24px rgba(22, 34, 14, 0.06);
+  --shadow-lift: 0 2px 4px rgba(22, 34, 14, 0.05), 0 18px 40px rgba(22, 34, 14, 0.1);
+  --shadow-glow: 0 14px 34px rgba(40, 66, 27, 0.3);
+
+  --animate-marquee: marquee 36s linear infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --radius: 0.95rem;
+
+  --background: #ffffff;
+  --foreground: #16220e;
+
+  --card: #ffffff;
+  --card-foreground: #16220e;
+  --popover: #ffffff;
+  --popover-foreground: #16220e;
+
+  /* Primary action = forest green with white text (high contrast, premium) */
+  --primary: #28421b;
+  --primary-foreground: #ffffff;
+
+  --secondary: #f3ffed;
+  --secondary-foreground: #28421b;
+
+  --muted: #f4f7f1;
+  --muted-foreground: #4c5a41;
+
+  --accent: #28421b;
+  --accent-foreground: #ffffff;
+
+  --destructive: #b4341f;
+
+  --border: #e4ede0;
+  --input: #dfe8db;
+  --ring: #6fc346;
+
+  --chart-1: #6fc346;
+  --chart-2: #28421b;
+  --chart-3: #e7c80c;
+  --chart-4: #57a933;
+  --chart-5: #a9d99a;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading tracking-tight;
+    font-weight: 600;
+  }
+
+  ::selection {
+    background: #cff3bd;
+    color: #16220e;
+  }
+
+  /* Tabular, aligned figures wherever the mono face renders data */
+  .font-mono {
+    font-feature-settings: "tnum", "ss01";
+    font-variant-numeric: tabular-nums;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* Small uppercase monospace label — the "verifiable data" signature */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 font-mono text-[0.7rem] font-medium uppercase tracking-[0.18em];
+  }
+
+  /* Hairline ledger row used across trust / dashboard cards */
+  .ledger-row {
+    @apply flex items-center justify-between border-t border-border/70 py-2.5 text-sm;
+  }
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-[1280px] px-5 sm:px-6 lg:px-8;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Soft radial atmosphere for hero / dark sections */
+  .bg-field-glow {
+    background-image:
+      radial-gradient(60% 55% at 15% 0%, rgba(111, 195, 70, 0.16), transparent 60%),
+      radial-gradient(50% 50% at 92% 8%, rgba(231, 200, 12, 0.12), transparent 55%);
+  }
+
+  .bg-forest-grid {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
