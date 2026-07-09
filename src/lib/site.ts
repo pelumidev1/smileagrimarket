@@ -31,5 +31,4 @@ export const navLinks: NavLink[] = [
   { label: "For investors", href: "#for-investors" },
   { label: "For farmers", href: "#for-farmers" },
   { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
 ];

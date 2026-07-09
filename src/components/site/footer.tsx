@@ -20,17 +20,13 @@ const columns: FooterColumn[] = [
     heading: "Company",
     links: [
       { label: "About", href: "#" },
-      { label: "Partners", href: "#compliance" },
       { label: "Compliance", href: "#compliance" },
       { label: "FAQs", href: "#faq" },
-      { label: "Blog", href: "#" },
     ],
   },
   {
     heading: "Resources",
     links: [
-      { label: "Help center", href: "#faq" },
-      { label: "Contact", href: "#contact" },
       { label: "Privacy policy", href: "#" },
       { label: "Terms", href: "#" },
     ],
