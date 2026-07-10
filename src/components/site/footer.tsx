@@ -27,8 +27,8 @@ const columns: FooterColumn[] = [
   {
     heading: "Resources",
     links: [
-      { label: "Privacy policy", href: "#" },
-      { label: "Terms", href: "#" },
+      { label: "Privacy policy", href: "/legal/privacy-policy" },
+      { label: "Terms", href: "/legal/terms-and-conditions" },
     ],
   },
 ];
