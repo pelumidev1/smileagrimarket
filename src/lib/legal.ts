@@ -19,7 +19,7 @@ export const legalPolicies: LegalPolicy[] = [
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
     html: `<p>Welcome to <strong>Smile Agri-Market Technologies Ltd ("Smile Agri-Market", "we", "our", or "us")</strong>. We value your privacy and are committed to protecting your personal information.</p>
-<p>This Privacy Policy explains how we collect, use, disclose, store, and protect your information when you visit <strong>smile-agrimarket.com</strong>, use our mobile applications, or access any products or services offered by Smile Agri-Market Technologies Ltd.</p>
+<p>This Privacy Policy explains how we collect, use, disclose, store, and protect your information when you visit <strong>smileagrimarket.com</strong>, use our mobile applications, or access any products or services offered by Smile Agri-Market Technologies Ltd.</p>
 <p>By accessing or using our website or services, you acknowledge that you have read and understood this Privacy Policy.</p>
 <h2>1. Who We Are</h2>
 <p>Smile Agri-Market Technologies Ltd is an agricultural technology company that connects farmers, buyers, agricultural service providers, logistics providers, investors (where legally permitted), and other stakeholders through a digital marketplace.</p>
@@ -103,7 +103,7 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>20. Contact Us</h2>
 <p>If you have questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com" target="_blank" rel="noopener noreferrer">https://smile-agrimarket.com</a></p>
+<p>Website: <a href="https://smileagrimarket.com" target="_blank" rel="noopener noreferrer">https://smileagrimarket.com</a></p>
 <p>Email: <a href="mailto:privacy@smile-agrimarket.com"><strong>privacy@smile-agrimarket.com</strong></a></p>
 <p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>`,
   },

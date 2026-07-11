@@ -8,7 +8,7 @@ export const siteConfig = {
   shortName: "Agrimarket",
   domain: "smileagrimarket.com",
   url: "https://smileagrimarket.com",
-  email: "hello@agrimarket.com",
+  email: "hello@smileagrimarket.com",
   country: "Nigeria",
   tagline: "Invest in real farms with transparency you can verify.",
   description:
