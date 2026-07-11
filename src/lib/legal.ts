@@ -104,8 +104,8 @@ export const legalPolicies: LegalPolicy[] = [
 <p>If you have questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
 <p>Website: <a href="https://smileagrimarket.com" target="_blank" rel="noopener noreferrer">https://smileagrimarket.com</a></p>
-<p>Email: <a href="mailto:privacy@smile-agrimarket.com"><strong>privacy@smile-agrimarket.com</strong></a></p>
-<p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>`,
+<p>Email: <a href="mailto:privacy@smileagrimarket.com"><strong>privacy@smileagrimarket.com</strong></a></p>
+<p>Customer Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "terms-and-conditions",
@@ -113,7 +113,7 @@ export const legalPolicies: LegalPolicy[] = [
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
     html: `<p>Welcome to <strong>Smile Agri-Market Technologies Ltd ("Smile Agri-Market", "Company", "we", "our", or "us")</strong>.</p>
-<p>These Terms and Conditions ("Terms") govern your access to and use of <strong>smile-agrimarket.com</strong>, our mobile applications, and all related products and services (collectively, the "Platform").</p>
+<p>These Terms and Conditions ("Terms") govern your access to and use of <strong>smileagrimarket.com</strong>, our mobile applications, and all related products and services (collectively, the "Platform").</p>
 <p>By creating an account, accessing, or using the Platform, you agree to be legally bound by these Terms. If you do not agree, you must not use the Platform.</p>
 <h2>1. About Smile Agri-Market</h2>
 <p>Smile Agri-Market Technologies Ltd is an agricultural technology company that provides a digital marketplace connecting:</p>
@@ -221,15 +221,15 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>27. Contact Information</h2>
 <p>For questions regarding these Terms and Conditions, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com" target="_blank" rel="noopener noreferrer">https://smile-agrimarket.com</a></p>
-<p>Support: <a href="mailto:support@smile-agrimarket.com">support@smile-agrimarket.com</a></p>`,
+<p>Website: <a href="https://smileagrimarket.com" target="_blank" rel="noopener noreferrer">https://smileagrimarket.com</a></p>
+<p>Support: <a href="mailto:support@smileagrimarket.com">support@smileagrimarket.com</a></p>`,
   },
   {
     slug: "cookie-policy",
     title: "Cookie Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Cookie Policy explains how <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market", "we", "our", or "us") uses cookies and similar technologies when you visit <a href="https://smile-agrimarket.com" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, use our mobile applications, or access any of our digital services (collectively, the "Platform").</p>
+    html: `<p>This Cookie Policy explains how <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market", "we", "our", or "us") uses cookies and similar technologies when you visit <a href="https://smileagrimarket.com" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, use our mobile applications, or access any of our digital services (collectively, the "Platform").</p>
 <p>By continuing to use our Platform, you consent to our use of cookies as described in this Policy, except where applicable law requires us to obtain your prior consent for certain categories of cookies.</p>
 <h2>1. What Are Cookies?</h2>
 <p>Cookies are small text files stored on your computer, smartphone, tablet, or other device when you visit a website. Cookies help websites function efficiently, remember user preferences, improve security, and provide insights into how visitors use the website.</p>
@@ -302,16 +302,16 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>13. Contact Us</h2>
 <p>If you have any questions about this Cookie Policy or our use of cookies, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Email: <a href="mailto:privacy@smile-agrimarket.com"><strong>privacy@smile-agrimarket.com</strong></a></p>
-<p>Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Email: <a href="mailto:privacy@smileagrimarket.com"><strong>privacy@smileagrimarket.com</strong></a></p>
+<p>Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "refund-and-cancellation-policy",
     title: "Refund & Cancellation Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Refund & Cancellation Policy ("Policy") explains the circumstances under which refunds, returns, order cancellations, and payment reversals may be requested for purchases made through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market", "we", "our", or "us") via <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, our mobile applications, or other services.</p>
+    html: `<p>This Refund & Cancellation Policy ("Policy") explains the circumstances under which refunds, returns, order cancellations, and payment reversals may be requested for purchases made through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market", "we", "our", or "us") via <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, our mobile applications, or other services.</p>
 <p>By placing an order through our Platform, you agree to this Policy.</p>
 <h2>1. Purpose</h2>
 <p>Smile Agri-Market is committed to providing a fair, transparent, and efficient marketplace for buyers and sellers. Because many products sold on the Platform are perishable agricultural goods, refund eligibility depends on the type of product purchased and the circumstances of the transaction.</p>
@@ -397,9 +397,9 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>21. Contact Us</h2>
 <p>If you have questions about this Policy or wish to request a refund or cancellation, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>
-<p>Refund Enquiries: <a href="mailto:refunds@smile-agrimarket.com"><strong>refunds@smile-agrimarket.com</strong></a></p>
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Customer Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>
+<p>Refund Enquiries: <a href="mailto:refunds@smileagrimarket.com"><strong>refunds@smileagrimarket.com</strong></a></p>
 <p>Response Time: We aim to acknowledge enquiries within <strong>2 business days</strong> and work toward resolving eligible refund requests as promptly as reasonably possible.</p>`,
   },
   {
@@ -407,7 +407,7 @@ export const legalPolicies: LegalPolicy[] = [
     title: "Seller Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Seller Policy ("Policy") governs the participation of all sellers on <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "Company," "we," "our," or "us"), including through <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a> and our mobile applications (collectively, the "Platform").</p>
+    html: `<p>This Seller Policy ("Policy") governs the participation of all sellers on <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "Company," "we," "our," or "us"), including through <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a> and our mobile applications (collectively, the "Platform").</p>
 <p>By registering as a seller, listing products, or offering services on the Platform, you agree to comply with this Policy, our Terms & Conditions, Privacy Policy, and all applicable laws.</p>
 <h2>1. Purpose</h2>
 <p>Smile Agri-Market is committed to building a trusted, transparent, and reliable agricultural marketplace. This Policy establishes the standards all sellers must follow to protect buyers, promote fair trading, and maintain the integrity of the Platform.</p>
@@ -501,16 +501,16 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>23. Contact Us</h2>
 <p>If you have questions regarding this Seller Policy, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Seller Support: <a href="mailto:sellers@smile-agrimarket.com"><strong>sellers@smile-agrimarket.com</strong></a></p>
-<p>General Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Seller Support: <a href="mailto:sellers@smileagrimarket.com"><strong>sellers@smileagrimarket.com</strong></a></p>
+<p>General Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "buyer-policy",
     title: "Buyer Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Buyer Policy ("Policy") governs all purchases made through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "we," "our," or "us") via <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, our mobile applications, and related services (collectively, the "Platform").</p>
+    html: `<p>This Buyer Policy ("Policy") governs all purchases made through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "we," "our," or "us") via <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, our mobile applications, and related services (collectively, the "Platform").</p>
 <p>By creating a buyer account, placing an order, or using the Platform to purchase products or services, you agree to comply with this Policy, our Terms & Conditions, Privacy Policy, Refund & Cancellation Policy, and all other applicable Platform policies.</p>
 <h2>1. Purpose</h2>
 <p>Smile Agri-Market is committed to providing a secure, transparent, and efficient agricultural marketplace. This Policy explains your rights and responsibilities as a buyer and outlines the standards that apply when purchasing products or services through the Platform.</p>
@@ -606,15 +606,15 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>22. Contact Us</h2>
 <p>If you have questions about this Buyer Policy or need assistance with an order, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Customer Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "acceptable-use-policy",
     title: "Acceptable Use Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Acceptable Use Policy ("Policy") sets out the rules for using the services provided by <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "Company," "we," "our," or "us") through <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, our mobile applications, APIs, and related services (collectively, the "Platform").</p>
+    html: `<p>This Acceptable Use Policy ("Policy") sets out the rules for using the services provided by <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "Company," "we," "our," or "us") through <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, our mobile applications, APIs, and related services (collectively, the "Platform").</p>
 <p>This Policy applies to all users, including buyers, sellers, farmers, cooperatives, logistics providers, warehouses, consultants, financial partners, advertisers, visitors, and any other person or organization using the Platform.</p>
 <p>By accessing or using the Platform, you agree to comply with this Policy, our Terms & Conditions, Privacy Policy, Seller Policy, Buyer Policy, and all applicable laws.</p>
 <h2>1. Purpose</h2>
@@ -707,17 +707,17 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>22. Contact Us</h2>
 <p>If you have questions about this Acceptable Use Policy or wish to report a violation, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>General Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>
-<p>Legal Enquiries: <a href="mailto:legal@smile-agrimarket.com"><strong>legal@smile-agrimarket.com</strong></a></p>
-<p>Abuse Reports: <a href="mailto:abuse@smile-agrimarket.com"><strong>abuse@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>General Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>
+<p>Legal Enquiries: <a href="mailto:legal@smileagrimarket.com"><strong>legal@smileagrimarket.com</strong></a></p>
+<p>Abuse Reports: <a href="mailto:abuse@smileagrimarket.com"><strong>abuse@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "disclaimer",
     title: "Disclaimer",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>Welcome to <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "Company," "we," "our," or "us"). This Disclaimer applies to your access to and use of <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, our mobile applications, APIs, and all related services (collectively, the "Platform").</p>
+    html: `<p>Welcome to <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "Company," "we," "our," or "us"). This Disclaimer applies to your access to and use of <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, our mobile applications, APIs, and all related services (collectively, the "Platform").</p>
 <p>By accessing or using the Platform, you acknowledge that you have read, understood, and agree to this Disclaimer.</p>
 <h2>1. General Information Only</h2>
 <p>The information provided on the Platform is for general informational and educational purposes only.</p>
@@ -801,16 +801,16 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>18. Contact Us</h2>
 <p>If you have questions about this Disclaimer, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Email: <a href="mailto:legal@smile-agrimarket.com"><strong>legal@smile-agrimarket.com</strong></a></p>
-<p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Email: <a href="mailto:legal@smileagrimarket.com"><strong>legal@smileagrimarket.com</strong></a></p>
+<p>Customer Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "shipping-and-delivery-policy",
     title: "Shipping & Delivery Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Shipping & Delivery Policy ("Policy") explains how orders placed through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "we," "our," or "us") are processed, shipped, delivered, and managed. This Policy applies to purchases made through <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, our mobile applications, and related services (collectively, the "Platform").</p>
+    html: `<p>This Shipping & Delivery Policy ("Policy") explains how orders placed through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "we," "our," or "us") are processed, shipped, delivered, and managed. This Policy applies to purchases made through <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, our mobile applications, and related services (collectively, the "Platform").</p>
 <p>By placing an order through the Platform, you agree to this Policy, our Terms & Conditions, Buyer Policy, Seller Policy, and Refund & Cancellation Policy.</p>
 <h2>1. Purpose</h2>
 <p>Smile Agri-Market connects buyers with farmers, suppliers, and other agricultural businesses. Depending on the product and location, deliveries may be arranged by:</p>
@@ -914,16 +914,16 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>24. Contact Us</h2>
 <p>If you have questions about shipping or delivery, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>
-<p>Logistics Support: <a href="mailto:logistics@smile-agrimarket.com"><strong>logistics@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Customer Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>
+<p>Logistics Support: <a href="mailto:logistics@smileagrimarket.com"><strong>logistics@smileagrimarket.com</strong></a></p>`,
   },
   {
     slug: "returns-policy",
     title: "Returns Policy",
     effectiveDate: "July 9, 2026",
     lastUpdated: "July 9, 2026",
-    html: `<p>This Returns Policy ("Policy") explains the conditions under which products purchased through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "we," "our," or "us") may be returned. It applies to purchases made through <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a>, our mobile applications, and related services (collectively, the "Platform").</p>
+    html: `<p>This Returns Policy ("Policy") explains the conditions under which products purchased through <strong>Smile Agri-Market Technologies Ltd</strong> ("Smile Agri-Market," "we," "our," or "us") may be returned. It applies to purchases made through <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a>, our mobile applications, and related services (collectively, the "Platform").</p>
 <p>This Policy should be read together with our <strong>Terms & Conditions</strong>, <strong>Refund & Cancellation Policy</strong>, <strong>Buyer Policy</strong>, and <strong>Seller Policy</strong>.</p>
 <h2>1. Purpose</h2>
 <p>Smile Agri-Market is committed to providing a fair and transparent marketplace for buyers and sellers. This Policy establishes the procedures and conditions for returning eligible products while recognizing that many agricultural products are perishable and require special handling.</p>
@@ -1012,8 +1012,8 @@ export const legalPolicies: LegalPolicy[] = [
 <h2>20. Contact Us</h2>
 <p>If you have questions about returning a product or wish to request a return, please contact:</p>
 <p><strong>Smile Agri-Market Technologies Ltd</strong></p>
-<p>Website: <a href="https://smile-agrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smile-agrimarket.com</strong></a></p>
-<p>Customer Support: <a href="mailto:support@smile-agrimarket.com"><strong>support@smile-agrimarket.com</strong></a></p>
-<p>Returns Department: <a href="mailto:returns@smile-agrimarket.com"><strong>returns@smile-agrimarket.com</strong></a></p>`,
+<p>Website: <a href="https://smileagrimarket.com/" target="_blank" rel="noopener noreferrer"><strong>https://smileagrimarket.com</strong></a></p>
+<p>Customer Support: <a href="mailto:support@smileagrimarket.com"><strong>support@smileagrimarket.com</strong></a></p>
+<p>Returns Department: <a href="mailto:returns@smileagrimarket.com"><strong>returns@smileagrimarket.com</strong></a></p>`,
   },
 ];
